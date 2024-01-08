@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "node-sass -w assets/css/index.scss assets/css/index.css"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

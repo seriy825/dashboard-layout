@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header class="header">
+        <navbar class="navbar">
+            <div class="navbar__logo">
+                <img src="assets/img/logo.svg" height="37" width="37" />
+                    <span>Dashboard<sub>v.01</sub></span>
+            </div>
+            <div class="navbar__burger">
+                <button class="navbar__burger-btn">
+                    <span class="navbar__burger-icon"></span>
+                    <span class="navbar__burger-icon"></span>
+                    <span class="navbar__burger-icon"></span>
+                </button>
+            </div>
+        </navbar>
+    </header>
+    <div class="container">        
+        <aside class="menu">
+            <div class="menu-links">
+                <header class="menu-header">
+                    <img src="assets/img/logo.svg" height="37" width="37" />
+                    <span>Dashboard<sub>v.01</sub></span>
+                </header>
+                <div class="menu-content">
+                    <div class="menu-content__item">
+                        <div>
+                            <img class="menu-content__item__img" src="assets/icons/1.svg" />
+                            <span>Dashboard</span>
+                        </div>
+                    </div>
+                    <a href="#" class="menu-content__item">
+                        <div>
+                            <img src="assets/icons/2.svg" />
+                            <span>Product</span>
+                        </div>
+                        <img src="assets/icons/right-arrow.svg" />
+                    </a>
+                    <a href="#" class="menu-content__item menu-content__item--active">
+                        <div>
+                            <img src="assets/icons/3.svg" />
+                            <span>Customers</span>
+                        </div>
+                        <img src="assets/icons/right-arrow.svg" />
+                    </a>
+                    <a href="#" class="menu-content__item">
+                        <div>
+                            <img src="assets/icons/4.svg" />
+                            <span>Income</span>
+                        </div>
+                        <img src="assets/icons/right-arrow.svg" />
+                    </a>
+                    <a href="#" class="menu-content__item">
+                        <div>
+                            <img src="assets/icons/5.svg" />
+                            <span>Promote</span>
+                        </div>
+                        <img src="assets/icons/right-arrow.svg" />
+                    </a>
+                    <a href="#" class="menu-content__item">
+                        <div>
+                            <img src="assets/icons/6.svg" />
+                            <span>Help</span>
+                        </div>
+                        <img src="assets/icons/right-arrow.svg" />
+                    </a>
+                </div>
+            </div>
+            <footer class="menu-footer">
+                <img src="assets/img/avatar.png" class="menu-footer__img" />
+                <div class="menu-footer__text">
+                    <h4 class="menu-footer__text__name">Evano</h4>
+                    <span class="menu-footer__text__job">Project Manager</span>
+                </div>
+            </footer>
+        </aside>
+        <main class="content">
+            <h2 class="content-header">Hello Evano 👋🏼,</h2>
+            <div class="content-table">
+                <header class="content-table__header">
+                    <div class="content-table__header__text">
+                        <h4 class="content-table__header__text__name">All Customers</h4>
+                        <span class="content-table__header__text__status">Active Members</span>
+                    </div>
+                    <div class="content-table__header__search">
+                        <img src="assets/icons/search.svg" />
+                        <input class="input" type="text" placeholder="Search" />
+                    </div>
+                </header>
+                <div class="content-table__container">
+                    <table class="content-table__content">
+                        <thead>
+                            <tr class="content-table__column__header">
+                                <th class="content-table__column__header__inner">Customer Name</th>
+                                <th class="content-table__column__header__inner">Company</th>
+                                <th class="content-table__column__header__inner">Phone Number</th>
+                                <th class="content-table__column__header__inner">Email</th>
+                                <th class="content-table__column__header__inner">Country</th>
+                                <th class="content-table__column__header__inner">Status</th>
+                            </tr>
+                            <tr class="content-table__column__header--divider"></tr>
+                        </thead>
+                        <tbody class="content-table__body">
+                            <tr class="content-table__body__row">
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="content-table__body__row--active">Active</span></td>
+                            </tr>
+                            <tr class="content-table__body__row">
+                                <td>Floyd Miles</td>
+                                <td>Yahoo</td>
+                                <td>(205) 555-0100</td>
+                                <td>floyd@yahoo.com</td>
+                                <td>Kiribati</td>
+                                <td><span class="content-table__body__row--inactive">Inactive</span></td>
+                            </tr>
+                            <tr class="content-table__body__row">
+                                <td>Ronald Richards</td>
+                                <td>Adobe</td>
+                                <td>(302) 555-0107</td>
+                                <td>ronald@adobe.com</td>
+                                <td>Israel</td>
+                                <td><span class="content-table__body__row--inactive">Inactive</span></td>
+                            </tr>
+                            <tr class="content-table__body__row">
+                                <td>Marvin McKinney</td>
+                                <td>Tesla</td>
+                                <td>(252) 555-0126</td>
+                                <td>marvin@tesla.com</td>
+                                <td>Iran</td>
+                            <td><span class="content-table__body__row--active">Active</span></td>
+                            </tr>
+                            <tr class="content-table__body__row">
+                                <td>Jerome Bell</td>
+                                <td>Google</td>
+                                <td>(629) 555-0129</td>
+                                <td>jerome@google.com</td>
+                                <td>Réunion</td>
+                            <td><span class="content-table__body__row--active">Active</span></td>
+                            </tr>
+                            <tr class="content-table__body__row">
+                                <td>Kathryn Murphy</td>
+                                <td>Microsoft</td>
+                                <td>(406) 555-0120</td>
+                                <td>kathryn@microsoft.com</td>
+                                <td>Curaçao</td>
+                            <td><span class="content-table__body__row--active">Active</span></td>
+                            </tr>
+                            <tr class="content-table__body__row">
+                                <td>Jacob Jones</td>
+                                <td>Yahoo</td>
+                                <td>(208) 555-0112</td>
+                                <td>jacob@yahoo.com</td>
+                                <td>Brazil</td>
+                            <td><span class="content-table__body__row--active">Active</span></td>
+                            </tr>
+                            <tr class="content-table__body__row">
+                                <td>Kristin Watson</td>
+                                <td>Facebook</td>
+                                <td>(704) 555-0127</td>
+                                <td>kristin@facebook.com</td>
+                                <td>Åland Islands</td>
+                                <td><span class="content-table__body__row--inactive">Inactive</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <footer class="content-table__footer">
+                    <span class="content-table__footer--muted">Showing data 1 to 8 of 256K entries</span>
+                    <div class="content-table__footer__pagination">
+                        <ul class="content-table__footer__pagination__list">
+                            <li>
+                                <button class="content-table__footer__pagination__list__button">
+                                    <
+                                </button>
+                            </li>
+                            <li>
+                                <button class="content-table__footer__pagination__list__button content-table__footer__pagination__list__button--active">1</button>
+                            </li>
+                            <li>
+                                <button class="content-table__footer__pagination__list__button">2</button>
+                            </li>
+                            <li>
+                                <button class="content-table__footer__pagination__list__button">3</button>
+                            </li>
+                            <li>
+                                <button class="content-table__footer__pagination__list__button">4</button>
+                            </li>
+                            <span class="content-table__footer__pagination__list__dots">... </span>
+                            <li>
+                                <button class="content-table__footer__pagination__list__button">40</button>
+                            </li>
+                            <li>
+                                <button class="content-table__footer__pagination__list__button">
+                                    >
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </main>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
